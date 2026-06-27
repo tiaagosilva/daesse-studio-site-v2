@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+    
+    <!-- Primary Meta Tags -->
+    <title>Daesse Studio | Autoridade Digital e Design Premium</title>
+    <meta name="title" content="Daesse Studio | Autoridade Digital e Design Premium"/>
+    <meta name="description" content="Estúdio premium de presença digital. Unimos design autoral e estratégia focada em conversão para elevar sua marca à liderança do mercado."/>
+    <meta name="keywords" content="estúdio de design, desenvolvimento web, sites premium, autoridade digital, presença digital, criação de sites, Daesse Studio"/>
+    <meta name="author" content="Daesse Studio"/>
+    <meta name="robots" content="index, follow"/>
+    <link rel="canonical" href="https://daessestudio.com.br/"/>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://daessestudio.com.br/"/>
+    <meta property="og:title" content="Daesse Studio | Autoridade Digital e Design Premium"/>
+    <meta property="og:description" content="Construímos presença digital que posiciona empresas como líderes do seu mercado através de design exclusivo."/>
+    <meta property="og:image" content="https://daessestudio.com.br/assets/og-image.jpg"/>
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image"/>
+    <meta property="twitter:url" content="https://daessestudio.com.br/"/>
+    <meta property="twitter:title" content="Daesse Studio | Autoridade Digital e Design Premium"/>
+    <meta property="twitter:description" content="Construímos presença digital que posiciona empresas como líderes do seu mercado através de design exclusivo."/>
+    <meta property="twitter:image" content="https://daessestudio.com.br/assets/og-image.jpg"/>
+    
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Daesse Studio",
+      "image": "https://daessestudio.com.br/assets/og-image.jpg",
+      "@id": "https://daessestudio.com.br/",
+      "url": "https://daessestudio.com.br/",
+      "telephone": "+55000000000",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -23.550520,
+        "longitude": -46.633308
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "sameAs": ["https://instagram.com/daessestudio"]
+    }
+    </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+    
+    <link href="assets/css2_19fd9cc6b396.css" rel="stylesheet"/>
+    <link href="assets/css2_62759cd015bd.css" rel="stylesheet"/>
+    <link href="assets/css2_86e10c4bcbd4.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-blue': '#1B6CA8',
+                        'brand-petroleo': '#0E3A52',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-neutral-900 antialiased selection:bg-brand-blue selection:text-white">
+
+<header class="relative w-full min-h-screen flex flex-col justify-between p-6 sm:p-12 z-10 overflow-hidden bg-white">
+    <!-- 3D Canvas Background -->
+    <div id="canvas-container" class="absolute inset-0 z-0 pointer-events-none opacity-80"></div>
+    
+    <!-- Top Navigation -->
+    <nav class="flex justify-between items-center pointer-events-auto w-full max-w-[1400px] mx-auto z-20">
+        <div class="text-xl font-bold tracking-tighter text-black">DAESSE.</div>
+        <div class="hidden sm:flex items-center gap-8 text-xs font-geist-mono font-medium text-neutral-500 uppercase tracking-wide">
+            <a href="#estudio" class="hover:text-black transition-colors">O Estúdio</a>
+            <a href="#projetos" class="hover:text-black transition-colors">Projetos</a>
+            <a href="#servicos" class="hover:text-black transition-colors">Serviços</a>
+            <a href="#contato" class="px-5 py-2.5 bg-brand-blue text-white rounded-md hover:bg-brand-petroleo transition-colors shadow-sm">Iniciar Projeto</a>
+        </div>
+    </nav>
+    
+    <!-- Hero Content -->
+    <div class="pointer-events-auto w-full max-w-[1400px] mx-auto z-20 flex flex-col lg:flex-row items-center lg:items-end justify-between gap-16 mt-20 lg:mt-0 pb-10 flex-1">
+        
+        <!-- Left: Copy & CTAs -->
+        <div class="w-full lg:max-w-[700px] space-y-8">
+            <!-- Pulsing Badge -->
+            <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-neutral-100 border border-neutral-200 text-xs font-geist-mono text-neutral-600 shadow-sm fade-in-up" style="animation-delay: 100ms;">
+                <span class="relative flex h-2 w-2">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-black opacity-40"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-black"></span>
+                </span>
+                Estúdio Premium de Presença Digital
+            </div>
+            
+            <!-- Headline -->
+            <h1 class="text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tighter leading-[0.95] text-black fade-in-up" style="animation-delay: 200ms;">
+                <span class="text-neutral-400 block mb-2">Nós não criamos apenas sites.</span>
+                Construímos presença digital que posiciona empresas como <span class="border-b-4 border-black pb-1">líderes</span> do seu mercado.
+            </h1>
+            
+            <!-- Subheadline / Text -->
+            <p class="text-lg md:text-xl text-neutral-500 font-normal tracking-tight max-w-lg leading-relaxed fade-in-up" style="animation-delay: 300ms;">
+                Estética sem direção é só decoração. Unimos design autoral e estratégia focada em elevação de ticket para marcas que exigem experiências premium.
+            </p>
+            
+            <!-- CTAs -->
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-6 pt-4 fade-in-up" style="animation-delay: 400ms;">
+                <a href="#contato" class="px-8 py-4 rounded-lg bg-brand-blue text-white font-medium hover:bg-brand-petroleo transition-all hover:shadow-xl hover:-translate-y-0.5 font-geist-mono text-sm uppercase tracking-widest">
+                    Elevar minha marca
+                </a>
+                <a href="#portfolio" class="group flex items-center gap-2 text-sm font-semibold text-neutral-900 hover:text-brand-blue transition-colors border-b border-transparent hover:border-brand-blue pb-0.5 uppercase tracking-wide">
+                    Ver Cases de Sucesso <i class="w-4 h-4 group-hover:translate-x-1 transition-transform" data-lucide="arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Right: Sophisticated Graphics / Trust Indicators -->
+        <div class="w-full lg:w-auto flex flex-col gap-6 fade-in-up mb-10" style="animation-delay: 500ms;">
+            
+            <!-- Quality Seal -->
+            <div class="bg-white/80 backdrop-blur-md p-6 rounded-2xl border border-neutral-200 shadow-xl flex items-center gap-5 max-w-[320px] lg:ml-auto relative overflow-hidden group hover:scale-[1.02] transition-transform duration-500 cursor-default">
+                <div class="absolute inset-0 bg-gradient-to-r from-neutral-100/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div class="w-14 h-14 rounded-full bg-black flex items-center justify-center shrink-0">
+                    <i class="w-6 h-6 text-white" data-lucide="award"></i>
+                </div>
+                <div class="relative z-10">
+                    <h3 class="text-lg font-bold text-black tracking-tight">Padrão Internacional</h3>
+                    <p class="text-[11px] leading-relaxed text-neutral-500 font-geist-mono mt-1">Design system exclusivo e arquitetura de altíssima performance.</p>
+                </div>
+            </div>
+
+            <!-- Numbers / Proof (Dark Element for Contrast) -->
+            <div class="bg-neutral-900 text-white p-6 rounded-2xl border border-neutral-800 shadow-2xl flex flex-col gap-4 max-w-[320px] lg:ml-auto relative overflow-hidden hover:scale-[1.02] transition-transform duration-500 cursor-default">
+                <!-- Subtle glow effect -->
+                <div class="absolute -top-10 -right-10 w-32 h-32 bg-white/5 rounded-full blur-2xl"></div>
+                
+                <div class="flex items-center justify-between border-b border-neutral-800 pb-4 relative z-10">
+                    <span class="text-[10px] font-geist-mono text-neutral-400 uppercase tracking-widest font-semibold">Autoridade Comprovada</span>
+                    <i class="w-4 h-4 text-neutral-500" data-lucide="trending-up"></i>
+                </div>
+                
+                <div class="flex gap-8 relative z-10">
+                    <div>
+                        <div class="text-4xl font-bold tracking-tighter mb-1">50<span class="text-neutral-500">+</span></div>
+                        <div class="text-[9px] text-neutral-400 font-geist-mono uppercase tracking-wider">Marcas Elevadas</div>
+                    </div>
+                    <div>
+                        <div class="text-4xl font-bold tracking-tighter mb-1">3<span class="text-neutral-500">x</span></div>
+                        <div class="text-[9px] text-neutral-400 font-geist-mono uppercase tracking-wider">Aumento em Conversão</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<!-- Services / Products -->
+<main class="bg-neutral-50 border-t border-neutral-200 pt-32 pb-32" id="servicos">
+    <div class="max-w-[1400px] mx-auto px-6">
+        
+        <!-- Header -->
+        <div class="text-center max-w-2xl mx-auto mb-20 fade-in-up">
+            <h2 class="text-xs font-geist-mono text-neutral-500 uppercase tracking-widest mb-4">Nossas Soluções</h2>
+            <h3 class="text-4xl md:text-5xl font-semibold tracking-tight text-black mb-6">Investimentos Estratégicos</h3>
+            <p class="text-lg text-neutral-500">Desenvolvemos produtos digitais de alto valor. Escolha a solução ideal para o momento da sua marca.</p>
+        </div>
+
+        <!-- Main Packages Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+            
+            <!-- START -->
+            <div class="bg-white rounded-3xl p-10 border border-neutral-200 hover:border-neutral-400 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 group relative flex flex-col fade-in-up">
+                <div class="mb-8">
+                    <div class="w-12 h-12 rounded-xl bg-neutral-100 flex items-center justify-center mb-6 group-hover:bg-black group-hover:text-white transition-colors duration-500">
+                        <i class="w-5 h-5" data-lucide="layout-template"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold tracking-tight text-black mb-2">START</h4>
+                    <p class="text-sm text-neutral-500 font-medium">Landing Page Premium</p>
+                </div>
+                
+                <p class="text-sm text-neutral-600 mb-8 leading-relaxed">Ideal para profissionais autônomos, campanhas e validação rápida de negócios.</p>
+                
+                <div class="mb-10 flex-1">
+                    <p class="text-xs font-geist-mono text-neutral-400 uppercase tracking-widest mb-4">Incluso</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3 text-sm text-neutral-700"><i class="w-4 h-4 text-neutral-400 mt-0.5" data-lucide="check"></i> Design Responsivo</li>
+                        <li class="flex items-start gap-3 text-sm text-neutral-700"><i class="w-4 h-4 text-neutral-400 mt-0.5" data-lucide="check"></i> Copy Otimizada</li>
+                        <li class="flex items-start gap-3 text-sm text-neutral-700"><i class="w-4 h-4 text-neutral-400 mt-0.5" data-lucide="check"></i> Integração WhatsApp</li>
+                        <li class="flex items-start gap-3 text-sm text-neutral-700"><i class="w-4 h-4 text-neutral-400 mt-0.5" data-lucide="check"></i> SEO Básico</li>
+                    </ul>
+                </div>
+                
+                <div class="pt-8 border-t border-neutral-100 mt-auto">
+                    <div class="text-2xl font-semibold text-black mb-6">R$ 1.500</div>
+                    <a href="#contato" aria-label="Solicitar orçamento do plano Start" class="flex items-center justify-center w-full py-4 rounded-xl border border-neutral-200 text-neutral-900 font-medium group-hover:bg-black group-hover:text-white group-hover:border-black transition-colors shadow-sm">
+                        Iniciar Presença Digital
+                    </a>
+                </div>
+            </div>
+
+            <!-- PRIME (Highlight) -->
+            <div class="bg-black rounded-3xl p-10 border border-neutral-800 hover:border-neutral-600 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 group relative flex flex-col fade-in-up" style="animation-delay: 100ms;">
+                <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-white text-black px-4 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase font-geist-mono shadow-md">Mais Escolhido</div>
+                
+                <div class="mb-8">
+                    <div class="w-12 h-12 rounded-xl bg-neutral-900 flex items-center justify-center mb-6 group-hover:bg-white group-hover:text-black transition-colors duration-500">
+                        <i class="w-5 h-5 text-white group-hover:text-black transition-colors" data-lucide="layout"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold tracking-tight text-white mb-2">PRIME</h4>
+                    <p class="text-sm text-neutral-400 font-medium">Site Institucional Premium</p>
+                </div>
+                
+                <p class="text-sm text-neutral-300 mb-8 leading-relaxed">O carro-chefe. Ideal para empresas e clínicas que precisam transmitir autoridade superior.</p>
+                
+                <div class="mb-10 flex-1">
+                    <p class="text-xs font-geist-mono text-neutral-500 uppercase tracking-widest mb-4">Incluso</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3 text-sm text-neutral-300"><i class="w-4 h-4 text-neutral-500 mt-0.5" data-lucide="check"></i> Até 5 Páginas Premium</li>
+                        <li class="flex items-start gap-3 text-sm text-neutral-300"><i class="w-4 h-4 text-neutral-500 mt-0.5" data-lucide="check"></i> Copy e Design Estratégico</li>
+                        <li class="flex items-start gap-3 text-sm text-neutral-300"><i class="w-4 h-4 text-neutral-500 mt-0.5" data-lucide="check"></i> Google Meu Negócio</li>
+                        <li class="flex items-start gap-3 text-sm text-neutral-300"><i class="w-4 h-4 text-neutral-500 mt-0.5" data-lucide="check"></i> E-mail Profissional</li>
+                    </ul>
+                </div>
+                
+                <div class="pt-8 border-t border-neutral-800 mt-auto">
+                    <div class="text-2xl font-semibold text-white mb-6">R$ 3.000</div>
+                    <a href="#contato" aria-label="Solicitar orçamento do plano Prime" class="flex items-center justify-center w-full py-4 rounded-xl bg-white text-black font-medium hover:bg-neutral-200 transition-colors shadow-sm">
+                        Agendar Reunião Estratégica
+                    </a>
+                </div>
+            </div>
+
+            <!-- SIGNATURE -->
+            <div class="bg-white rounded-3xl p-10 border border-neutral-200 hover:border-neutral-400 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 group relative flex flex-col fade-in-up" style="animation-delay: 200ms;">
+                <div class="mb-8">
+                    <div class="w-12 h-12 rounded-xl bg-neutral-100 flex items-center justify-center mb-6 group-hover:bg-black group-hover:text-white transition-colors duration-500">
+                        <i class="w-5 h-5" data-lucide="gem"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold tracking-tight text-black mb-2">SIGNATURE</h4>
+                    <p class="text-sm text-neutral-500 font-medium">Presença Digital Completa</p>
+                </div>
+                
+                <p class="text-sm text-neutral-600 mb-8 leading-relaxed">A entrega máxima de valor, unindo sua presença digital com a sua autoridade visual.</p>
+                
+                <div class="mb-10 flex-1">
+                    <p class="text-xs font-geist-mono text-neutral-400 uppercase tracking-widest mb-4">Incluso</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3 text-sm text-neutral-700"><i class="w-4 h-4 text-neutral-400 mt-0.5" data-lucide="check"></i> Tudo do plano PRIME</li>
+                        <li class="flex items-start gap-3 text-sm font-semibold text-neutral-900"><i class="w-4 h-4 text-black mt-0.5" data-lucide="camera"></i> Retrato Corporativo Individual</li>
+                        <li class="flex items-start gap-3 text-sm text-neutral-700"><i class="w-4 h-4 text-neutral-400 mt-0.5" data-lucide="check"></i> Estratégia de Posicionamento</li>
+                        <li class="flex items-start gap-3 text-sm text-neutral-700"><i class="w-4 h-4 text-neutral-400 mt-0.5" data-lucide="check"></i> Suporte Prioritário</li>
+                    </ul>
+                </div>
+                
+                <div class="pt-8 border-t border-neutral-100 mt-auto">
+                    <div class="text-2xl font-semibold text-black mb-6">R$ 4.500</div>
+                    <a href="#contato" aria-label="Solicitar orçamento do plano Signature" class="flex items-center justify-center w-full py-4 rounded-xl border border-neutral-200 text-neutral-900 font-medium group-hover:bg-black group-hover:text-white group-hover:border-black transition-colors shadow-sm">
+                        Aplicar para Parceria
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Add-ons / Recurrence (2 columns) -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 fade-in-up" style="animation-delay: 300ms;">
+            
+            <!-- CARE PLAN -->
+            <div class="bg-neutral-100 rounded-3xl p-8 flex flex-col sm:flex-row items-center sm:items-start justify-between gap-8 group hover:bg-neutral-200 transition-colors duration-500 border border-transparent hover:border-neutral-300 cursor-default">
+                <div class="flex gap-6">
+                    <div class="w-12 h-12 rounded-full bg-white shadow-sm flex items-center justify-center shrink-0">
+                        <i class="w-5 h-5 text-neutral-900" data-lucide="shield-check"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold tracking-tight text-black mb-1">CARE PLAN</h4>
+                        <p class="text-sm text-neutral-500 mb-4">Plano recorrente de suporte e manutenção contínua.</p>
+                        <p class="text-xs text-neutral-600 font-geist-mono">Setup de SEO Local disponível (R$ 600 - R$ 2.000)</p>
+                    </div>
+                </div>
+                <div class="text-right sm:shrink-0 flex items-center justify-end">
+                    <div class="text-xl font-semibold text-black">R$ 100<span class="text-sm text-neutral-500 font-normal">/mês</span></div>
+                </div>
+            </div>
+
+            <!-- FOTOGRAFIA -->
+            <div class="bg-neutral-100 rounded-3xl p-8 flex flex-col sm:flex-row items-center sm:items-start justify-between gap-8 group hover:bg-neutral-200 transition-colors duration-500 border border-transparent hover:border-neutral-300 cursor-default">
+                <div class="flex gap-6">
+                    <div class="w-12 h-12 rounded-full bg-white shadow-sm flex items-center justify-center shrink-0">
+                        <i class="w-5 h-5 text-neutral-900" data-lucide="camera"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold tracking-tight text-black mb-1">Fotografia Corporativa</h4>
+                        <p class="text-sm text-neutral-500 mb-4">Eleve sua autoridade visual em nosso estúdio.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2 py-1 bg-white border border-neutral-200 rounded text-[10px] font-geist-mono uppercase tracking-wide text-neutral-600 shadow-sm">Retrato R$ 750</span>
+                            <span class="px-2 py-1 bg-white border border-neutral-200 rounded text-[10px] font-geist-mono uppercase tracking-wide text-neutral-600 shadow-sm">Ensaio Premium</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-right sm:shrink-0 flex items-center justify-end">
+                    <a href="#contato" class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-black border-b border-black pb-0.5 hover:text-neutral-500 hover:border-neutral-500 transition-colors">
+                        Saber mais <i class="w-3 h-3" data-lucide="arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</main>
+
+<!-- Process / Timeline -->
+<section class="bg-white border-t border-neutral-200 pt-32 pb-40" id="processo">
+    <div class="max-w-[1000px] mx-auto px-6">
+        
+        <!-- Header -->
+        <div class="text-center max-w-2xl mx-auto mb-24 fade-in-up">
+            <h2 class="text-xs font-geist-mono text-neutral-500 uppercase tracking-widest mb-4">Nossa Metodologia</h2>
+            <h3 class="text-4xl md:text-5xl font-semibold tracking-tight text-black mb-6">Como Construímos Autoridade</h3>
+            <p class="text-lg text-neutral-500">Um processo meticuloso e transparente, guiado por estratégia, do primeiro rascunho até a publicação final.</p>
+        </div>
+
+        <!-- Timeline Container -->
+        <div class="relative">
+            <!-- Continuous Connection Line -->
+            <div class="absolute left-6 md:left-1/2 top-0 bottom-0 w-px bg-neutral-200 -translate-x-1/2"></div>
+            
+            <div class="space-y-12 md:space-y-16">
+                
+                <!-- 1. Diagnóstico (Box on Right) -->
+                <div class="relative flex flex-col md:flex-row items-start md:items-center justify-between group fade-in-up">
+                    <div class="hidden md:block w-[45%]"></div>
+                    
+                    <div class="absolute left-6 md:left-1/2 -translate-x-1/2 w-12 h-12 bg-white rounded-full border border-neutral-200 shadow-sm flex items-center justify-center z-10 group-hover:border-black group-hover:scale-110 transition-all duration-500">
+                        <div class="w-3 h-3 bg-neutral-300 rounded-full group-hover:bg-black transition-colors duration-500"></div>
+                    </div>
+                    
+                    <div class="w-full md:w-[45%] pl-20 md:pl-12">
+                        <div class="bg-neutral-50 rounded-2xl p-6 md:p-8 border border-neutral-200 group-hover:shadow-xl group-hover:border-neutral-300 group-hover:-translate-y-1 transition-all duration-500 text-left">
+                            <div class="flex items-center justify-between mb-6">
+                                <i class="w-6 h-6 text-neutral-400 group-hover:text-black transition-colors duration-500" data-lucide="search"></i>
+                                <div class="text-[10px] font-geist-mono text-neutral-400 uppercase tracking-widest bg-white px-3 py-1 rounded-full border border-neutral-200 shadow-sm">Etapa 01</div>
+                            </div>
+                            <h4 class="text-xl font-bold tracking-tight text-black mb-2">Diagnóstico</h4>
+                            <p class="text-sm text-neutral-500 leading-relaxed">Imersão profunda no seu modelo de negócio, identificando diferenciais e concorrentes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Estratégia (Box on Left) -->
+                <div class="relative flex flex-col md:flex-row-reverse items-start md:items-center justify-between group fade-in-up">
+                    <div class="hidden md:block w-[45%]"></div>
+                    
+                    <div class="absolute left-6 md:left-1/2 -translate-x-1/2 w-12 h-12 bg-white rounded-full border border-neutral-200 shadow-sm flex items-center justify-center z-10 group-hover:border-black group-hover:scale-110 transition-all duration-500">
+                        <div class="w-3 h-3 bg-neutral-300 rounded-full group-hover:bg-black transition-colors duration-500"></div>
+                    </div>
+                    
+                    <div class="w-full md:w-[45%] pl-20 md:pl-0 md:pr-12">
+                        <div class="bg-neutral-50 rounded-2xl p-6 md:p-8 border border-neutral-200 group-hover:shadow-xl group-hover:border-neutral-300 group-hover:-translate-y-1 transition-all duration-500 text-left">
+                            <div class="flex items-center justify-between mb-6">
+                                <i class="w-6 h-6 text-neutral-400 group-hover:text-black transition-colors duration-500" data-lucide="crosshair"></i>
+                                <div class="text-[10px] font-geist-mono text-neutral-400 uppercase tracking-widest bg-white px-3 py-1 rounded-full border border-neutral-200 shadow-sm">Etapa 02</div>
+                            </div>
+                            <h4 class="text-xl font-bold tracking-tight text-black mb-2">Estratégia</h4>
+                            <p class="text-sm text-neutral-500 leading-relaxed">Definição do posicionamento, arquitetura da informação e copywriting guiado por vendas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Design (Box on Right - Highlight) -->
+                <div class="relative flex flex-col md:flex-row items-start md:items-center justify-between group fade-in-up">
+                    <div class="hidden md:block w-[45%]"></div>
+                    
+                    <div class="absolute left-6 md:left-1/2 -translate-x-1/2 w-12 h-12 bg-white rounded-full border border-neutral-200 shadow-sm flex items-center justify-center z-10 group-hover:border-black group-hover:scale-110 transition-all duration-500">
+                        <div class="w-3 h-3 bg-neutral-300 rounded-full group-hover:bg-black transition-colors duration-500"></div>
+                    </div>
+                    
+                    <div class="w-full md:w-[45%] pl-20 md:pl-12">
+                        <div class="bg-black rounded-2xl p-6 md:p-8 border border-neutral-800 group-hover:shadow-2xl group-hover:border-neutral-600 group-hover:-translate-y-1 transition-all duration-500 text-left">
+                            <div class="flex items-center justify-between mb-6">
+                                <i class="w-6 h-6 text-neutral-500 group-hover:text-white transition-colors duration-500" data-lucide="paintbrush"></i>
+                                <div class="text-[10px] font-geist-mono text-neutral-500 uppercase tracking-widest bg-neutral-900 px-3 py-1 rounded-full border border-neutral-800">Etapa 03</div>
+                            </div>
+                            <h4 class="text-xl font-bold tracking-tight text-white mb-2">Design</h4>
+                            <p class="text-sm text-neutral-400 leading-relaxed">Direção de arte premium. Criação de layouts exclusivos que elevam a percepção de valor.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Desenvolvimento (Box on Left) -->
+                <div class="relative flex flex-col md:flex-row-reverse items-start md:items-center justify-between group fade-in-up">
+                    <div class="hidden md:block w-[45%]"></div>
+                    
+                    <div class="absolute left-6 md:left-1/2 -translate-x-1/2 w-12 h-12 bg-white rounded-full border border-neutral-200 shadow-sm flex items-center justify-center z-10 group-hover:border-black group-hover:scale-110 transition-all duration-500">
+                        <div class="w-3 h-3 bg-neutral-300 rounded-full group-hover:bg-black transition-colors duration-500"></div>
+                    </div>
+                    
+                    <div class="w-full md:w-[45%] pl-20 md:pl-0 md:pr-12">
+                        <div class="bg-neutral-50 rounded-2xl p-6 md:p-8 border border-neutral-200 group-hover:shadow-xl group-hover:border-neutral-300 group-hover:-translate-y-1 transition-all duration-500 text-left">
+                            <div class="flex items-center justify-between mb-6">
+                                <i class="w-6 h-6 text-neutral-400 group-hover:text-black transition-colors duration-500" data-lucide="code-2"></i>
+                                <div class="text-[10px] font-geist-mono text-neutral-400 uppercase tracking-widest bg-white px-3 py-1 rounded-full border border-neutral-200 shadow-sm">Etapa 04</div>
+                            </div>
+                            <h4 class="text-xl font-bold tracking-tight text-black mb-2">Desenvolvimento</h4>
+                            <p class="text-sm text-neutral-500 leading-relaxed">Código limpo e de altíssima performance. Micro-animações programadas com perfeição.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. SEO (Box on Right) -->
+                <div class="relative flex flex-col md:flex-row items-start md:items-center justify-between group fade-in-up">
+                    <div class="hidden md:block w-[45%]"></div>
+                    
+                    <div class="absolute left-6 md:left-1/2 -translate-x-1/2 w-12 h-12 bg-white rounded-full border border-neutral-200 shadow-sm flex items-center justify-center z-10 group-hover:border-black group-hover:scale-110 transition-all duration-500">
+                        <div class="w-3 h-3 bg-neutral-300 rounded-full group-hover:bg-black transition-colors duration-500"></div>
+                    </div>
+                    
+                    <div class="w-full md:w-[45%] pl-20 md:pl-12">
+                        <div class="bg-neutral-50 rounded-2xl p-6 md:p-8 border border-neutral-200 group-hover:shadow-xl group-hover:border-neutral-300 group-hover:-translate-y-1 transition-all duration-500 text-left">
+                            <div class="flex items-center justify-between mb-6">
+                                <i class="w-6 h-6 text-neutral-400 group-hover:text-black transition-colors duration-500" data-lucide="line-chart"></i>
+                                <div class="text-[10px] font-geist-mono text-neutral-400 uppercase tracking-widest bg-white px-3 py-1 rounded-full border border-neutral-200 shadow-sm">Etapa 05</div>
+                            </div>
+                            <h4 class="text-xl font-bold tracking-tight text-black mb-2">SEO</h4>
+                            <p class="text-sm text-neutral-500 leading-relaxed">Otimização técnica (Schema.org, Metatags). Preparamos o terreno para tráfego orgânico.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Publicação (Box on Left) -->
+                <div class="relative flex flex-col md:flex-row-reverse items-start md:items-center justify-between group fade-in-up">
+                    <div class="hidden md:block w-[45%]"></div>
+                    
+                    <div class="absolute left-6 md:left-1/2 -translate-x-1/2 w-12 h-12 bg-white rounded-full border border-neutral-200 shadow-sm flex items-center justify-center z-10 group-hover:border-black group-hover:scale-110 transition-all duration-500">
+                        <div class="w-3 h-3 bg-neutral-300 rounded-full group-hover:bg-black transition-colors duration-500"></div>
+                    </div>
+                    
+                    <div class="w-full md:w-[45%] pl-20 md:pl-0 md:pr-12">
+                        <div class="bg-neutral-50 rounded-2xl p-6 md:p-8 border border-neutral-200 group-hover:shadow-xl group-hover:border-neutral-300 group-hover:-translate-y-1 transition-all duration-500 text-left">
+                            <div class="flex items-center justify-between mb-6">
+                                <i class="w-6 h-6 text-neutral-400 group-hover:text-black transition-colors duration-500" data-lucide="rocket"></i>
+                                <div class="text-[10px] font-geist-mono text-neutral-400 uppercase tracking-widest bg-white px-3 py-1 rounded-full border border-neutral-200 shadow-sm">Etapa 06</div>
+                            </div>
+                            <h4 class="text-xl font-bold tracking-tight text-black mb-2">Publicação</h4>
+                            <p class="text-sm text-neutral-500 leading-relaxed">Deploy em servidores de borda garantindo carregamento instantâneo em qualquer dispositivo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Crescimento (Box on Right - Highlight) -->
+                <div class="relative flex flex-col md:flex-row items-start md:items-center justify-between group fade-in-up">
+                    <div class="hidden md:block w-[45%]"></div>
+                    
+                    <div class="absolute left-6 md:left-1/2 -translate-x-1/2 w-12 h-12 bg-black rounded-full shadow-md flex items-center justify-center z-10 group-hover:scale-110 transition-all duration-500">
+                        <div class="w-4 h-4 bg-white rounded-full"></div>
+                    </div>
+                    
+                    <div class="w-full md:w-[45%] pl-20 md:pl-12">
+                        <div class="bg-black rounded-2xl p-6 md:p-8 border border-neutral-800 group-hover:shadow-2xl group-hover:border-neutral-600 group-hover:-translate-y-1 transition-all duration-500 text-left">
+                            <div class="flex items-center justify-between mb-6">
+                                <i class="w-6 h-6 text-white transition-colors duration-500" data-lucide="trending-up"></i>
+                                <div class="text-[10px] font-geist-mono text-black uppercase tracking-widest bg-white px-3 py-1 rounded-full">Etapa 07</div>
+                            </div>
+                            <h4 class="text-xl font-bold tracking-tight text-white mb-2">Crescimento</h4>
+                            <p class="text-sm text-neutral-400 leading-relaxed">Através do nosso Care Plan, mantemos sua presença digital atualizada e evoluindo sem dor de cabeça.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio / Projetos -->
+<section class="bg-neutral-950 border-t border-neutral-900 pt-32 pb-32" id="projetos">
+    <div class="max-w-[1400px] mx-auto px-6">
+        
+        <!-- Header -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8 fade-in-up">
+            <div class="max-w-2xl">
+                <h2 class="text-xs font-geist-mono text-neutral-500 uppercase tracking-widest mb-4">Projetos Selecionados</h2>
+                <h3 class="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-white leading-[1.1]">
+                    Onde o design encontra a <span class="text-neutral-500">conversão</span>.
+                </h3>
+            </div>
+            <div class="pb-2">
+                <a href="https://wa.me/55000000000" class="inline-flex items-center gap-2 text-sm font-bold text-white border-b border-white pb-1 hover:text-neutral-400 hover:border-neutral-400 transition-colors group">
+                    Quero um projeto de alto nível <i class="w-4 h-4 group-hover:translate-x-1 transition-transform" data-lucide="arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Projects Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 fade-in-up" style="animation-delay: 200ms;">
+            
+            <!-- Project 1 -->
+            <a href="#" class="group block" aria-label="Ver detalhes do projeto Aura Build">
+                <div class="relative w-full aspect-[4/3] rounded-3xl overflow-hidden bg-neutral-900 mb-6 border border-neutral-800 shadow-sm">
+                    <!-- Placeholder Image -->
+                    <div class="absolute inset-0 bg-neutral-900 flex flex-col items-center justify-center text-neutral-600 group-hover:scale-105 transition-transform duration-700">
+                        <i class="w-12 h-12 mb-4" data-lucide="image"></i>
+                        <span class="text-xs font-geist-mono uppercase tracking-widest">Espaço para Mockup</span>
+                    </div>
+                </div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h4 class="text-2xl font-bold text-white mb-3 group-hover:text-neutral-400 transition-colors">Aura Build</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-[10px] font-geist-mono text-neutral-400 uppercase tracking-widest bg-neutral-900 border border-neutral-700 px-3 py-1.5 rounded-full shadow-sm">Site Institucional</span>
+                            <span class="text-[10px] font-geist-mono text-neutral-400 uppercase tracking-widest bg-neutral-900 border border-neutral-700 px-3 py-1.5 rounded-full shadow-sm">2025</span>
+                        </div>
+                    </div>
+                    <div class="w-12 h-12 rounded-full border border-brand-blue flex items-center justify-center text-brand-blue group-hover:bg-brand-blue group-hover:text-white transition-all duration-500 shadow-sm">
+                        <i class="w-5 h-5 group-hover:rotate-45 transition-transform duration-500" data-lucide="arrow-up-right"></i>
+                    </div>
+                </div>
+            </a>
+            
+            <!-- Project 2 (Offset on Desktop) -->
+            <a href="#" class="group block md:mt-24" aria-label="Ver detalhes do projeto Lumina Clinic">
+                <div class="relative w-full aspect-[4/3] rounded-3xl overflow-hidden bg-neutral-900 mb-6 border border-neutral-800 shadow-sm">
+                    <div class="absolute inset-0 bg-neutral-900 flex flex-col items-center justify-center text-neutral-600 group-hover:scale-105 transition-transform duration-700">
+                        <i class="w-12 h-12 mb-4" data-lucide="image"></i>
+                        <span class="text-xs font-geist-mono uppercase tracking-widest">Espaço para Mockup</span>
+                    </div>
+                </div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h4 class="text-2xl font-bold text-white mb-3 group-hover:text-neutral-400 transition-colors">Lumina Clinic</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-[10px] font-geist-mono text-neutral-400 uppercase tracking-widest bg-neutral-900 border border-neutral-700 px-3 py-1.5 rounded-full shadow-sm">Landing Page</span>
+                            <span class="text-[10px] font-geist-mono text-neutral-400 uppercase tracking-widest bg-neutral-900 border border-neutral-700 px-3 py-1.5 rounded-full shadow-sm">Saúde</span>
+                        </div>
+                    </div>
+                    <div class="w-12 h-12 rounded-full border border-brand-blue flex items-center justify-center text-brand-blue group-hover:bg-brand-blue group-hover:text-white transition-all duration-500 shadow-sm">
+                        <i class="w-5 h-5 group-hover:rotate-45 transition-transform duration-500" data-lucide="arrow-up-right"></i>
+                    </div>
+                </div>
+            </a>
+            
+            <!-- Project 3 -->
+            <a href="#" class="group block" aria-label="Ver detalhes do projeto Vanguard Law">
+                <div class="relative w-full aspect-[4/3] rounded-3xl overflow-hidden bg-neutral-900 mb-6 border border-neutral-800 shadow-sm">
+                    <div class="absolute inset-0 bg-neutral-900 flex flex-col items-center justify-center text-neutral-600 group-hover:scale-105 transition-transform duration-700">
+                        <i class="w-12 h-12 mb-4" data-lucide="image"></i>
+                        <span class="text-xs font-geist-mono uppercase tracking-widest">Espaço para Mockup</span>
+                    </div>
+                </div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h4 class="text-2xl font-bold text-white mb-3 group-hover:text-neutral-400 transition-colors">Vanguard Law</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-[10px] font-geist-mono text-neutral-400 uppercase tracking-widest bg-neutral-900 border border-neutral-700 px-3 py-1.5 rounded-full shadow-sm">Advocacia</span>
+                            <span class="text-[10px] font-geist-mono text-neutral-400 uppercase tracking-widest bg-neutral-900 border border-neutral-700 px-3 py-1.5 rounded-full shadow-sm">Branding</span>
+                        </div>
+                    </div>
+                    <div class="w-12 h-12 rounded-full border border-brand-blue flex items-center justify-center text-brand-blue group-hover:bg-brand-blue group-hover:text-white transition-all duration-500 shadow-sm">
+                        <i class="w-5 h-5 group-hover:rotate-45 transition-transform duration-500" data-lucide="arrow-up-right"></i>
+                    </div>
+                </div>
+            </a>
+            
+            <!-- Project 4 (Offset on Desktop) -->
+            <a href="#" class="group block md:mt-24" aria-label="Ver detalhes do projeto Nexos Capital">
+                <div class="relative w-full aspect-[4/3] rounded-3xl overflow-hidden bg-neutral-900 mb-6 border border-neutral-800 shadow-sm">
+                    <div class="absolute inset-0 bg-neutral-900 flex flex-col items-center justify-center text-neutral-600 group-hover:scale-105 transition-transform duration-700">
+                        <i class="w-12 h-12 mb-4" data-lucide="image"></i>
+                        <span class="text-xs font-geist-mono uppercase tracking-widest">Espaço para Mockup</span>
+                    </div>
+                </div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h4 class="text-2xl font-bold text-white mb-3 group-hover:text-neutral-400 transition-colors">Nexos Capital</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-[10px] font-geist-mono text-neutral-400 uppercase tracking-widest bg-neutral-900 border border-neutral-700 px-3 py-1.5 rounded-full shadow-sm">Finanças</span>
+                            <span class="text-[10px] font-geist-mono text-neutral-400 uppercase tracking-widest bg-neutral-900 border border-neutral-700 px-3 py-1.5 rounded-full shadow-sm">Web App</span>
+                        </div>
+                    </div>
+                    <div class="w-12 h-12 rounded-full border border-brand-blue flex items-center justify-center text-brand-blue group-hover:bg-brand-blue group-hover:text-white transition-all duration-500 shadow-sm">
+                        <i class="w-5 h-5 group-hover:rotate-45 transition-transform duration-500" data-lucide="arrow-up-right"></i>
+                    </div>
+                </div>
+            </a>
+            
+        </div>
+        
+    </div>
+</section>
+
+<!-- Fotografia Corporativa -->
+<section class="bg-white border-t border-neutral-200 pt-32 pb-40" id="fotografia">
+    <div class="max-w-[1400px] mx-auto px-6">
+        
+        <!-- Header -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8 fade-in-up">
+            <div class="max-w-3xl">
+                <h2 class="text-xs font-geist-mono text-neutral-500 uppercase tracking-widest mb-4">Fotografia Corporativa</h2>
+                <h3 class="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-black leading-[1.1]">
+                    A sua imagem chega <br/><span class="text-neutral-400">antes da sua voz</span>.
+                </h3>
+            </div>
+            <div class="pb-2">
+                <a href="#" class="inline-flex items-center justify-center px-8 py-4 rounded-xl bg-black text-white font-semibold hover:bg-brand-petroleo transition-colors shadow-lg group">
+                    Página de Fotografia <i class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" data-lucide="arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Photography Grid (Masonry style, 3 columns) -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 fade-in-up" style="animation-delay: 200ms;">
+            
+            <!-- Foto 1 -->
+            <div class="group relative w-full aspect-[3/4] rounded-2xl overflow-hidden bg-neutral-100 border border-neutral-200 cursor-pointer">
+                <div class="absolute inset-0 bg-neutral-200 flex flex-col items-center justify-center text-neutral-400 group-hover:scale-105 transition-transform duration-700">
+                    <i class="w-8 h-8 mb-2" data-lucide="camera"></i>
+                    <span class="text-[10px] font-geist-mono uppercase tracking-widest">Retrato Corporativo</span>
+                </div>
+                <!-- Overlay on Hover -->
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center backdrop-blur-md">
+                    <i class="w-8 h-8 text-white scale-50 group-hover:scale-100 transition-transform duration-500" data-lucide="zoom-in"></i>
+                </div>
+            </div>
+
+            <!-- Foto 2 (Deslocada para baixo) -->
+            <div class="group relative w-full aspect-[3/4] rounded-2xl overflow-hidden bg-neutral-100 border border-neutral-200 cursor-pointer md:mt-16">
+                <div class="absolute inset-0 bg-neutral-200 flex flex-col items-center justify-center text-neutral-400 group-hover:scale-105 transition-transform duration-700">
+                    <i class="w-8 h-8 mb-2" data-lucide="camera"></i>
+                    <span class="text-[10px] font-geist-mono uppercase tracking-widest">Editorial Clínico</span>
+                </div>
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center backdrop-blur-md">
+                    <i class="w-8 h-8 text-white scale-50 group-hover:scale-100 transition-transform duration-500" data-lucide="zoom-in"></i>
+                </div>
+            </div>
+
+            <!-- Foto 3 -->
+            <div class="group relative w-full aspect-[3/4] rounded-2xl overflow-hidden bg-neutral-100 border border-neutral-200 cursor-pointer">
+                <div class="absolute inset-0 bg-neutral-200 flex flex-col items-center justify-center text-neutral-400 group-hover:scale-105 transition-transform duration-700">
+                    <i class="w-8 h-8 mb-2" data-lucide="camera"></i>
+                    <span class="text-[10px] font-geist-mono uppercase tracking-widest">Lifestyle Business</span>
+                </div>
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center backdrop-blur-md">
+                    <i class="w-8 h-8 text-white scale-50 group-hover:scale-100 transition-transform duration-500" data-lucide="zoom-in"></i>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+</section>
+
+<!-- Institutional / O Estúdio -->
+<section class="bg-neutral-950 text-white pt-32 pb-32" id="estudio">
+    <div class="max-w-[1400px] mx-auto px-6">
+        <div class="flex flex-col space-y-16 lg:space-y-24">
+            
+            <!-- Top Row: Photo + Text -->
+            <div class="flex flex-col lg:flex-row items-stretch gap-12 lg:gap-20">
+                
+                <!-- Left: Founder Image Space -->
+                <div class="w-full lg:w-5/12 fade-in-up">
+                    <div class="relative w-full h-full min-h-[400px] rounded-3xl overflow-hidden group bg-neutral-900 border border-neutral-800">
+                        <!-- Placeholder -> Change src later -->
+                        <div class="absolute inset-0 flex flex-col items-center justify-center text-neutral-700 group-hover:scale-105 transition-transform duration-700">
+                            <i class="w-12 h-12 mb-4" data-lucide="camera"></i>
+                            <span class="text-xs font-geist-mono uppercase tracking-widest">Espaço para Foto</span>
+                            <span class="text-[10px] text-neutral-600 mt-1">Retrato Corporativo</span>
+                        </div>
+                        <!-- Premium gradient overlay -->
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none"></div>
+                    </div>
+                </div>
+                
+                <!-- Right: Storytelling -->
+                <div class="w-full lg:w-7/12 flex flex-col justify-center py-4 fade-in-up" style="animation-delay: 200ms;">
+                    <h2 class="text-xs font-geist-mono text-neutral-500 uppercase tracking-widest mb-4">O Estúdio</h2>
+                    <h3 class="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-white mb-8 leading-[1.1]">
+                        Não somos apenas desenvolvedores. <br/>
+                        Somos <span class="text-neutral-500">parceiros estratégicos</span>.
+                    </h3>
+                    
+                    <div class="space-y-6 text-lg text-neutral-400 leading-relaxed font-light max-w-3xl">
+                        <p>
+                            A Daesse Studio nasceu de uma visão clara: ajudar empresas extraordinárias a refletirem seu verdadeiro valor na internet. Percebemos o abismo entre um design meramente decorativo e uma arquitetura digital que constrói autoridade.
+                        </p>
+                        <p>
+                            Nossa vocação é orquestrar a sua presença digital. Traduzimos a essência e a sofisticação da sua marca em experiências imersivas, elevando o seu ticket e posicionando o seu negócio no topo do mercado.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <!-- Bottom Row: Mission, Vision, Values (Bento Cards) -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-10 border-t border-neutral-800/50 fade-in-up" style="animation-delay: 400ms;">
+                
+                <div class="bg-neutral-900/30 hover:bg-neutral-900/80 p-8 rounded-3xl border border-neutral-800/50 hover:border-neutral-700 transition-colors duration-500 group">
+                    <i class="w-6 h-6 text-neutral-500 group-hover:text-white transition-colors duration-500 mb-6" data-lucide="target"></i>
+                    <h4 class="text-xs font-geist-mono text-white mb-3 uppercase tracking-widest">Propósito</h4>
+                    <p class="text-sm text-neutral-400 leading-relaxed font-light">Elevar a percepção de valor de negócios através de uma presença digital impecável.</p>
+                </div>
+                
+                <div class="bg-neutral-900/30 hover:bg-neutral-900/80 p-8 rounded-3xl border border-neutral-800/50 hover:border-neutral-700 transition-colors duration-500 group">
+                    <i class="w-6 h-6 text-neutral-500 group-hover:text-white transition-colors duration-500 mb-6" data-lucide="eye"></i>
+                    <h4 class="text-xs font-geist-mono text-white mb-3 uppercase tracking-widest">Visão</h4>
+                    <p class="text-sm text-neutral-400 leading-relaxed font-light">Ser referência no desenvolvimento de ecossistemas premium de alta conversão.</p>
+                </div>
+                
+                <div class="bg-neutral-900/30 hover:bg-neutral-900/80 p-8 rounded-3xl border border-neutral-800/50 hover:border-neutral-700 transition-colors duration-500 group">
+                    <i class="w-6 h-6 text-neutral-500 group-hover:text-white transition-colors duration-500 mb-6" data-lucide="diamond"></i>
+                    <h4 class="text-xs font-geist-mono text-white mb-3 uppercase tracking-widest">Valores</h4>
+                    <p class="text-sm text-neutral-400 leading-relaxed font-light">Estética funcional, excelência técnica, clareza e obsessão absoluta pelo detalhe.</p>
+                </div>
+                
+            </div>
+            
+        </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="bg-neutral-50 pt-32 pb-32 border-t border-neutral-200" id="faq">
+    <div class="max-w-[1000px] mx-auto px-6">
+        
+        <!-- Header -->
+        <div class="text-center max-w-2xl mx-auto mb-20 fade-in-up">
+            <h2 class="text-xs font-geist-mono text-neutral-500 uppercase tracking-widest mb-4">Transparência</h2>
+            <h3 class="text-4xl md:text-5xl font-semibold tracking-tight text-black mb-6">Dúvidas Frequentes</h3>
+            <p class="text-lg text-neutral-500">Respostas claras para você tomar a decisão com total segurança e confiança.</p>
+        </div>
+        
+        <!-- Accordions -->
+        <div class="space-y-4 fade-in-up" style="animation-delay: 200ms;">
+            
+            <!-- Item 1 -->
+            <div class="faq-item bg-white border border-neutral-200 rounded-2xl overflow-hidden transition-all duration-300">
+                <button class="faq-btn w-full flex items-center justify-between p-6 text-left cursor-pointer group">
+                    <span class="text-lg font-bold text-black group-hover:text-neutral-600 transition-colors">Quanto tempo demora?</span>
+                    <i class="faq-icon w-5 h-5 text-neutral-400 transition-transform duration-300" data-lucide="plus"></i>
+                </button>
+                <div class="faq-content h-0 overflow-hidden transition-all duration-300">
+                    <div class="p-6 pt-0 text-neutral-500 leading-relaxed font-light text-sm">
+                        Projetos de alto nível exigem tempo e precisão. O plano START é entregue em até 15 dias, enquanto o PRIME e o SIGNATURE levam de 30 a 45 dias, dependendo da complexidade. Nossa prioridade é o refinamento, e mantemos você atualizado em cada etapa do processo.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="faq-item bg-white border border-neutral-200 rounded-2xl overflow-hidden transition-all duration-300">
+                <button class="faq-btn w-full flex items-center justify-between p-6 text-left cursor-pointer group">
+                    <span class="text-lg font-bold text-black group-hover:text-neutral-600 transition-colors">Como funciona o pagamento?</span>
+                    <i class="faq-icon w-5 h-5 text-neutral-400 transition-transform duration-300" data-lucide="plus"></i>
+                </button>
+                <div class="faq-content h-0 overflow-hidden transition-all duration-300">
+                    <div class="p-6 pt-0 text-neutral-500 leading-relaxed font-light text-sm">
+                        Para garantir o máximo comprometimento e segurança para ambas as partes, trabalhamos com 50% no início do projeto e os 50% restantes apenas quando o site estiver finalizado, revisado e aprovado por você, pronto para ir ao ar.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="faq-item bg-white border border-neutral-200 rounded-2xl overflow-hidden transition-all duration-300">
+                <button class="faq-btn w-full flex items-center justify-between p-6 text-left cursor-pointer group">
+                    <span class="text-lg font-bold text-black group-hover:text-neutral-600 transition-colors">O domínio está incluso?</span>
+                    <i class="faq-icon w-5 h-5 text-neutral-400 transition-transform duration-300" data-lucide="plus"></i>
+                </button>
+                <div class="faq-content h-0 overflow-hidden transition-all duration-300">
+                    <div class="p-6 pt-0 text-neutral-500 leading-relaxed font-light text-sm">
+                        Sim. No primeiro ano, registramos e configuramos o seu domínio profissional (.com ou .com.br) sem custo adicional. Isso garante que você já comece com a propriedade oficial da sua marca, sem dores de cabeça técnicas.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="faq-item bg-white border border-neutral-200 rounded-2xl overflow-hidden transition-all duration-300">
+                <button class="faq-btn w-full flex items-center justify-between p-6 text-left cursor-pointer group">
+                    <span class="text-lg font-bold text-black group-hover:text-neutral-600 transition-colors">Posso solicitar alterações?</span>
+                    <i class="faq-icon w-5 h-5 text-neutral-400 transition-transform duration-300" data-lucide="plus"></i>
+                </button>
+                <div class="faq-content h-0 overflow-hidden transition-all duration-300">
+                    <div class="p-6 pt-0 text-neutral-500 leading-relaxed font-light text-sm">
+                        Absolutamente. Nosso processo prevê rodadas de refinamento durante a fase de Design. Apresentamos um protótipo fiel antes de escrever qualquer código. Não iniciamos o desenvolvimento até obtermos a sua aprovação irrestrita da interface.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="faq-item bg-white border border-neutral-200 rounded-2xl overflow-hidden transition-all duration-300">
+                <button class="faq-btn w-full flex items-center justify-between p-6 text-left cursor-pointer group">
+                    <span class="text-lg font-bold text-black group-hover:text-neutral-600 transition-colors">O site é responsivo?</span>
+                    <i class="faq-icon w-5 h-5 text-neutral-400 transition-transform duration-300" data-lucide="plus"></i>
+                </button>
+                <div class="faq-content h-0 overflow-hidden transition-all duration-300">
+                    <div class="p-6 pt-0 text-neutral-500 leading-relaxed font-light text-sm">
+                        Mais do que responsivo, ele é projetado com a metodologia <em>Mobile-First</em>. Sabendo que mais de 80% do tráfego atual vem de celulares, seu site será arquitetado para ter uma performance impecável e um carregamento instantâneo em qualquer tela.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="faq-item bg-white border border-neutral-200 rounded-2xl overflow-hidden transition-all duration-300">
+                <button class="faq-btn w-full flex items-center justify-between p-6 text-left cursor-pointer group">
+                    <span class="text-lg font-bold text-black group-hover:text-neutral-600 transition-colors">O SEO está incluso?</span>
+                    <i class="faq-icon w-5 h-5 text-neutral-400 transition-transform duration-300" data-lucide="plus"></i>
+                </button>
+                <div class="faq-content h-0 overflow-hidden transition-all duration-300">
+                    <div class="p-6 pt-0 text-neutral-500 leading-relaxed font-light text-sm">
+                        Sim, levamos a fundação de SEO muito a sério. Seu site será entregue com a estrutura técnica exigida pelo Google (tags semânticas, meta descrições, imagens otimizadas e arquitetura de carregamento rápido), preparando o terreno ideal para o tráfego orgânico.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 7 -->
+            <div class="faq-item bg-white border border-neutral-200 rounded-2xl overflow-hidden transition-all duration-300">
+                <button class="faq-btn w-full flex items-center justify-between p-6 text-left cursor-pointer group">
+                    <span class="text-lg font-bold text-black group-hover:text-neutral-600 transition-colors">Existe mensalidade?</span>
+                    <i class="faq-icon w-5 h-5 text-neutral-400 transition-transform duration-300" data-lucide="plus"></i>
+                </button>
+                <div class="faq-content h-0 overflow-hidden transition-all duration-300">
+                    <div class="p-6 pt-0 text-neutral-500 leading-relaxed font-light text-sm">
+                        A criação do site é um investimento único. Após a entrega, você terá apenas os custos normais (anuais ou mensais) de servidor/hospedagem de terceiros. Porém, caso deseje que a nossa equipe cuide da manutenção, atualizações e infraestrutura contínua, oferecemos o plano recorrente <em>Care Plan</em>.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 8 -->
+            <div class="faq-item bg-white border border-neutral-200 rounded-2xl overflow-hidden transition-all duration-300">
+                <button class="faq-btn w-full flex items-center justify-between p-6 text-left cursor-pointer group">
+                    <span class="text-lg font-bold text-black group-hover:text-neutral-600 transition-colors">Como funciona o suporte?</span>
+                    <i class="faq-icon w-5 h-5 text-neutral-400 transition-transform duration-300" data-lucide="plus"></i>
+                </button>
+                <div class="faq-content h-0 overflow-hidden transition-all duration-300">
+                    <div class="p-6 pt-0 text-neutral-500 leading-relaxed font-light text-sm">
+                        Diferente das agências tradicionais, não sumimos após o lançamento. Você terá 30 dias de suporte premium gratuito e direto via WhatsApp para garantir que tudo opere perfeitamente. Se precisar de acompanhamento prolongado, o <em>Care Plan</em> garante nosso suporte técnico ininterrupto.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        </div>
+        
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black text-white pt-24 pb-8 border-t border-neutral-900" id="contato">
+    <div class="max-w-[1400px] mx-auto px-6">
+        
+        <!-- Top Call to Action -->
+        <div class="flex flex-col md:flex-row items-start md:items-end justify-between border-b border-neutral-800 pb-16 mb-16 gap-8 fade-in-up">
+            <div class="max-w-2xl">
+                <h2 class="text-4xl md:text-5xl lg:text-7xl font-semibold tracking-tighter text-white mb-4 leading-tight">
+                    Pronto para <br/><span class="text-brand-blue">elevar a sua marca?</span>
+                </h2>
+            </div>
+            <div>
+                <a href="https://wa.me/55000000000" target="_blank" class="inline-flex items-center justify-center px-8 py-5 rounded-xl bg-brand-blue text-white font-semibold hover:bg-brand-petroleo transition-colors shadow-lg group">
+                    Iniciar Projeto <i class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" data-lucide="arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Main Footer Links Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-20 fade-in-up" style="animation-delay: 100ms;">
+            
+            <!-- Brand Column -->
+            <div class="space-y-6">
+                <div class="text-2xl font-bold tracking-tighter text-white">DAESSE.</div>
+                <p class="text-sm text-neutral-400 leading-relaxed max-w-xs font-light">
+                    Estúdio premium de presença digital. Unimos design autoral e estratégia focada em elevação de ticket.
+                </p>
+                <div class="flex items-center gap-4 pt-2">
+                    <a href="#" class="w-10 h-10 rounded-full bg-neutral-900 flex items-center justify-center text-neutral-400 hover:bg-white hover:text-black transition-colors" aria-label="Instagram">
+                        <i class="w-4 h-4" data-lucide="instagram"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-neutral-900 flex items-center justify-center text-neutral-400 hover:bg-white hover:text-black transition-colors" aria-label="LinkedIn">
+                        <i class="w-4 h-4" data-lucide="linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Navegação Rápida -->
+            <div>
+                <h4 class="text-xs font-geist-mono text-neutral-500 uppercase tracking-widest mb-6">Navegação</h4>
+                <ul class="space-y-4">
+                    <li><a href="#" class="text-sm text-neutral-400 hover:text-white transition-colors">Início</a></li>
+                    <li><a href="#estudio" class="text-sm text-neutral-400 hover:text-white transition-colors">O Estúdio</a></li>
+                    <li><a href="#projetos" class="text-sm text-neutral-400 hover:text-white transition-colors">Portfólio & Projetos</a></li>
+                    <li><a href="#servicos" class="text-sm text-neutral-400 hover:text-white transition-colors">Serviços Premium</a></li>
+                    <li><a href="#faq" class="text-sm text-neutral-400 hover:text-white transition-colors">Dúvidas Frequentes</a></li>
+                </ul>
+            </div>
+
+            <!-- Contato -->
+            <div>
+                <h4 class="text-xs font-geist-mono text-neutral-500 uppercase tracking-widest mb-6">Contato</h4>
+                <ul class="space-y-6">
+                    <li>
+                        <a href="https://wa.me/55000000000" class="group flex items-start gap-3 text-sm text-neutral-400 hover:text-white transition-colors">
+                            <i class="w-4 h-4 mt-0.5 text-neutral-500 group-hover:text-white transition-colors" data-lucide="message-circle"></i>
+                            <div>
+                                <span class="block text-white mb-0.5">WhatsApp</span>
+                                +55 (00) 00000-0000
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:contato@daesse.com" class="group flex items-start gap-3 text-sm text-neutral-400 hover:text-white transition-colors">
+                            <i class="w-4 h-4 mt-0.5 text-neutral-500 group-hover:text-white transition-colors" data-lucide="mail"></i>
+                            <div>
+                                <span class="block text-white mb-0.5">E-mail Corporativo</span>
+                                contato@daesse.com
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="group flex items-start gap-3 text-sm text-neutral-400">
+                            <i class="w-4 h-4 mt-0.5 text-neutral-500" data-lucide="map-pin"></i>
+                            <div>
+                                <span class="block text-white mb-0.5">Localização</span>
+                                São Paulo, SP, Brasil<br/>
+                                <a href="#" class="inline-flex items-center gap-1 text-xs text-neutral-500 hover:text-white transition-colors mt-2 border-b border-neutral-700 hover:border-white pb-0.5">
+                                    Ver no Google Maps <i class="w-3 h-3" data-lucide="external-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Institucional -->
+            <div>
+                <h4 class="text-xs font-geist-mono text-neutral-500 uppercase tracking-widest mb-6">Institucional</h4>
+                <ul class="space-y-4">
+                    <li><a href="#" class="text-sm text-neutral-400 hover:text-white transition-colors">Política de Privacidade</a></li>
+                    <li><a href="#" class="text-sm text-neutral-400 hover:text-white transition-colors">Termos de Serviço</a></li>
+                    <li><a href="#" class="text-sm text-neutral-400 hover:text-white transition-colors">Mapa do Site</a></li>
+                    <li><a href="#" class="text-sm text-neutral-400 hover:text-white transition-colors flex items-center gap-2">Painel do Cliente <i class="w-3 h-3 text-neutral-600" data-lucide="lock"></i></a></li>
+                </ul>
+            </div>
+            
+        </div>
+        
+        <!-- Copyright Bottom -->
+        <div class="border-t border-neutral-900 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 fade-in-up" style="animation-delay: 200ms;">
+            <p class="text-xs text-neutral-500 font-geist-mono">
+                &copy; 2026 Daesse Studio. Todos os direitos reservados.
+            </p>
+            <div class="flex items-center gap-2 text-xs text-neutral-600 font-geist-mono">
+                <i class="w-3 h-3" data-lucide="globe"></i> Operando globalmente do Brasil
+            </div>
+        </div>
+        
+    </div>
+</footer>
+
+<script src="assets/resource_3fa48481346f.es" defer></script>
+<script src="assets/three_1aecfa5aa56f.js" defer></script>
+<script src="assets/lucide_latest_2eebd0ebe8c2.es" defer></script>
+<script src="script.js" defer></script>
+</body>
+</html>

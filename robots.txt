@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://daessestudio.com.br/sitemap.xml

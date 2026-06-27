@@ -1,0 +1,67 @@
+/* style.css - Daesse Studio V2 */
+:root {
+    --font-sans: 'Geist', Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --color-daesse-black: #0D0D0D;
+    --color-daesse-dark: #2A2A2A;
+    --color-daesse-gray: #6B6B6B;
+    --color-daesse-light: #E0E0E0;
+    --color-daesse-petroleo: #0E3A52;
+    --color-daesse-azul: #1B6CA8;
+}
+
+/* Utilitários de Cor Personalizados da Marca */
+.text-brand-blue { color: var(--color-daesse-azul); }
+.bg-brand-blue { background-color: var(--color-daesse-azul); }
+.border-brand-blue { border-color: var(--color-daesse-azul); }
+
+.text-brand-petroleo { color: var(--color-daesse-petroleo); }
+.bg-brand-petroleo { background-color: var(--color-daesse-petroleo); }
+.border-brand-petroleo { border-color: var(--color-daesse-petroleo); }
+
+.hover\:text-brand-blue:hover { color: var(--color-daesse-azul) !important; }
+.hover\:bg-brand-blue:hover { background-color: var(--color-daesse-azul) !important; }
+.hover\:border-brand-blue:hover { border-color: var(--color-daesse-azul) !important; }
+
+body {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.font-geist-mono {
+    font-family: 'Geist Mono', monospace !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar for Light Theme */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #f5f5f5; }
+::-webkit-scrollbar-thumb { background: #d4d4d4; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #a3a3a3; }
+
+/* Custom Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+        filter: blur(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0px);
+    }
+}
+
+.fade-in-up {
+    opacity: 0;
+    filter: blur(12px);
+    will-change: opacity, transform, filter;
+}
+
+.fade-in-up.visible {
+    animation: fadeInUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
