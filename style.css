@@ -47,19 +47,16 @@ html {
     from {
         opacity: 0;
         transform: translateY(40px);
-        filter: blur(12px);
     }
     to {
         opacity: 1;
         transform: translateY(0);
-        filter: blur(0px);
     }
 }
 
 .fade-in-up {
     opacity: 0;
-    filter: blur(12px);
-    will-change: opacity, transform, filter;
+    will-change: opacity, transform;
 }
 
 .fade-in-up.visible {

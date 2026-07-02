@@ -3,7 +3,7 @@
 *Data de Conclusão da V2:* 2026-06-26
 
 ## 1. Posicionamento e Arquitetura Visual
-- **Conceito:** O site evoluiu de uma vitrine padrão para um **Estúdio Premium de Presença Digital**, focado em autoridade e elevação de ticket.
+- **Conceito:** O site evoluiu de uma vitrine padrão para um **Studio Premium de Presença Digital**, focado em autoridade e elevação de ticket.
 - **Paleta de Cores:** Design predominantemente dark/light limpo, enriquecido com toques estratégicos e luxuosos da paleta de marca:
   - Azul Profundo (`#1B6CA8`)
   - Azul Petróleo (`#0E3A52`)

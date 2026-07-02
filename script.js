@@ -159,4 +159,13 @@ document.addEventListener('DOMContentLoaded', () => {
         scrollObserver.observe(el);
     });
 
+    // 5. Portfolio "Em Breve" Intercept
+    const portfolioLinks = document.querySelectorAll('a[aria-label^="Ver detalhes do projeto"]');
+    portfolioLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            alert('Estudo de Caso completo em breve! Estamos finalizando a documentação deste projeto.');
+        });
+    });
+
 });
